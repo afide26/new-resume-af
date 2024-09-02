@@ -338,7 +338,17 @@
     ]
   },
   "testimonials": {
-    "recommendations": [
+    "recommendations": [      
+      {
+      "text": "I've had the pleasure of working with Alan through his role as a Technical Account Manager at Okta. His professionalism, technical proficiency, and focus on enabling customer outcomes allows Alan to explain complex technical concepts to any audience. Alan spends a lot of time seeking to understand how our Identity program address broader organisation needs, in order to provide appropriate guidance to best leverage our platform capabilities.",
+      "user": "Chris Ong - Senior Manager IAM (Alan's Client)",
+      "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
+      },
+      {
+        "text": "Alan has been a great mentor and a good role model. His charismatic approach in conversing with customers allows him to break down complex problems into manageable segments. His meticulous note-taking skills along with great diction ensure that critical details are captured accurately. Additionally, Alan’s emotional intelligence enables him to connect effectively with various audiences. Whether it’s understanding priorities or articulating solutions, he excels. His social personality further enhances his ability to collaborate and build strong relationships.",
+        "user": "Deepa Mylangam - Identity and Access Management Architect",
+        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
+        },
       {
         "text": "I had the privilege of working with Alan in one of the challenging projects at Woolworths. Alan is proactive, result-oriented, responsible and technically sound person and he is always ready to put all his energy and time to get the job done. He has exceptional troubleshooting and analytical skills in Ruby, React and Javascript. He is a great asset to the company.",
         "user": "Saswat Mishra - AEM Lead at Woolworths",
@@ -347,11 +357,6 @@
       {
         "text": "I had the pleasure of working with Alan in Woolworths. Alan is an exceptionally hard working professional. His ability to work under pressure and deliver a top class outcome is what makes him stand out from the crowd. He is an excellent communicator and has the ability to translate complex information in simple and exciting formats. Alan is a keen learner and is passionate about digital technology. He keeps reinventing himself by learning new skills and finding ways to use that in his role. I believe Alan's passion in the web/mobile development space holds him in good stead in this fast moving world. He will be a great asset to any organisation especially in the digital space.",
         "user": "Ani Nair - Senior Manager, Customer Experience Design ICare, Alan's previous boss, mentor and influencer",
-        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
-      },
-      {
-        "text": "I had the pleasure of working with Alan while he was my colleague at Woolworths. During this time he was diligently learning two programming languages, Javascript and Ruby. Not only did he learn two development stacks but he would also find practical ways to implement what he had learnt to benefit the business. The crowning project was one in which he built the portal for Woolworths I.T. division. I respect Alan as he would go over and above his role consistently, finding new problems he could solve and helping others, finding best practice resolutions to whatever problem he was faced with. I would highly recommend Alan as a problem solver, team player and technologist.",
-        "user": "Trent Shields - Founder and Lead Strategist at Dev Haus X, Alan's Web Development Mentor",
         "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
       }
     ]

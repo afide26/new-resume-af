@@ -5,6 +5,6 @@
 ---
 
 The site was built using AngularJS, CSS and Vanilla Javascript.
-The link can be found at [AF Resume](https://alanfidelino.herokuapp.com)
+The link can be found at [AF Resume](https://new-resume-af.vercel.app/)
 
 ---
