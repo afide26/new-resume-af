@@ -222,7 +222,7 @@ ul#nav li.current a {
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#about,#whatsnew {
   background: #2B2B2B;
   padding-top: 96px;
   padding-bottom: 66px;
@@ -239,7 +239,7 @@ ul#nav li.current a {
   color: #11ABB0;
 }
 
-#about h2 {
+#about h2, #whatsnew h2 {
   font: 22px/30px 'opensans-bold', sans-serif;
   color: #fff;
   margin-bottom: 12px;
@@ -1094,7 +1094,7 @@ call-to-action .button {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 
 .flex-control-paging li a {
