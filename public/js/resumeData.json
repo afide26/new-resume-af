@@ -1,16 +1,19 @@
 {
   "main": {
     "name": "Alan Fidelino",
-    "occupation": "Customer Success Professional and leader with a unique blend of skillset in customer success honed over years of experience in Hospitality service and management and Information Technology. A strong cutomer advocate who loves helping customers realize the value of their investment in SaaS and IDaaS applications. A brilliant collaborator, mentor and team player who is well respected by leaders and peers who benefitted from his expertise.",
+    "occupation": "Customer Success Professional and leader with a unique blend of skillset in customer success honed over years of experience in Hospitality service and management and Information Technology. A strong customer advocate who loves helping customers realize the value of their investment in SaaS and IDaaS applications. A brilliant collaborator, mentor and team player who is well respected by leaders and peers who benefitted from his expertise.",
     "description": "I am primarily a front end web developer specialising in ReactJS and a full stack web developer with working knowledge in using the Ruby on Rails framework",
     "image": "profilepic.jpg",
-    "bio": "A diligent learner has taken the mantle of leading enablement efforts for peers and colleagues alike in his current role as Senior Technical Account Manager at Okta.",
+    "bio": "A diligent learner who has taken the mantle of leading enablement efforts for peers and colleagues alike in his current role as Senior Technical Account Manager at Okta.",
     "bio2": "Trusted leader who has trained and mentored several current and former team members in the field of Customer Success (CSM) and Technical Account Management (TAM).",
     "bio3": "Alan has been sought after by peers for coaching and advice in customer and stakeholder engagement, time management and improving adoption and retention rates. He has been sought as a resource in various global projects to improve the key performance metrics of TAMs and CSMs alike in both his current and previous roles.",
     "bio4": "At the moment, Alan is continuously improving his skills in the field of customer success and leadership and has been named as Oceania's lone representative in the prestigious 2Sigma Leadership program for 2024.",
     "bio5": "2Sigma represents the top 5 percent of performers in the Customer Success organization of Okta.",
     "email": "mailto:alanfidelino@yahoo.com.au",
     "phone": "tel:+61432193240",
+    "whatsnew1": "Most recently, Alan has embarked on partnering and mentoring junior CSMs and has been instrumental in helping new CSMs collaborate with customers in creating business and technical success plans.",
+    "whatsnew2": "On the skills and enablement part, Alan has been certified in Cybersecurity by the ISC2 governing body, after completing 5 modules, 1 online exam and 1 face-to-face assessment. ",
+    "whatsnew3": "Career-wise, he likes to expand his wings and focus on what he does best - Customer Success and would like to be considered as Vercel's first Customer Success Manager in Australia.",
     "address": {
       "street": "10 Marlowe Street",
       "city": "Wetherill Park, Sydney",
