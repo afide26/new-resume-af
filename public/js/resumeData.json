@@ -1,0 +1,330 @@
+{
+  "main": {
+    "name": "Alan Fidelino",
+    "occupation": "Customer Success Professional and leader with a unique blend of skillset in customer success honed over years of experience in Hospitality service and management and Information Technology. A strong cutomer advocate who loves helping customers realize the value of their investment in SaaS and IDaaS applications. A brilliant collaborator, mentor and team player who is well respected by leaders and peers who benefitted from his expertise.",
+    "description": "I am primarily a front end web developer specialising in ReactJS and a full stack web developer with working knowledge in using the Ruby on Rails framework",
+    "image": "profilepic.jpg",
+    "bio": "A diligent learner has taken the mantle of leading enablement efforts for peers and colleagues alike in his current role as Senior Technical Account Manager at Okta.",
+    "bio2": "Trusted leader who has trained and mentored several current and former team members in the field of Customer Success (CSM) and Technical Account Management (TAM).",
+    "bio3": "Alan has been sought after by peers for coaching and advice in customer and stakeholder engagement, time management and improving adoption and retention rates. He has been sought as a resource in various global projects to improve the key performance metrics of TAMs and CSMs alike in both his current and previous roles.",
+    "bio4": "At the moment, Alan is continuously improving his skills in the field of customer success and leadership and has been named as Oceania's lone representative in the prestigious 2Sigma Leadership program for 2024.",
+    "bio5": "2Sigma represents the top 5 percent of performers in the Customer Success organization of Okta.",
+    "email": "mailto:alanfidelino@yahoo.com.au",
+    "phone": "tel:+61432193240",
+    "address": {
+      "street": "10 Marlowe Street",
+      "city": "Wetherill Park, Sydney",
+      "state": "New South Wales",
+      "zip": "2164",
+      "country": "Australia"
+    },
+    "website": "https://cfbikeberlinapp.herokuapp.com",
+    "resumedownload": "http://something.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/freeflowing.reviews",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/afide26",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "google-plus",
+        "url": "https://plus.google.com/u/0/105250946654496270708",
+        "className": "fa fa-google-plus"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/alan-fidelino-25148213/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/afide26/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/afide26/",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Stone River eLearning",
+        "degree": "Starting with REST APIs",
+        "graduated": "05 May 2019",
+        "description": "Starter course on REST APIs covering theory and application. Included MongoDB, Express, BodyParser and Postman",
+        "project": "https://node-on-ubuntu-16-afidedev26605864.codeanyapp.com/tasks",
+        "image": "../images/NodeMongoExpress.jpg",
+        "certificate": "https://stoneriverelearning.com/courses/206872/certificate?certificate_first_issued=true"
+      },
+      {
+        "school": "UDEMY: react.school_",
+        "degree": "React Data Visualization - Build a Cryptocurrency",
+        "graduated": "17 April 2019",
+        "description": "A short course project showing the capabilities of the new React Context, Grid Layout and Styled Components in Cryptocurrency dashboard.",
+        "certificate": "https://www.udemy.com/certificate/UC-Q0VLFQMW/",
+        "project": "https://afide26.github.io/CryptoDash/",
+        "image": "../images/REACTDisplay.jpg",
+        "repository": "https://github.com/afide26/CryptoDash"
+      },
+      {
+        "school": "Zenva Academy",
+        "degree": "Learn HTML and CSS by Creating a Responsive Company Website",
+        "graduated": "06 April 2019",
+        "description": "A short course to review basic HTML, CSS, JavaScript, jQuery, Bootstrap 4 and Flexbox.",
+        "certificate": "https://academy.zenva.com/certificate/07b9e686/",
+        "project": "https://afide26.github.io/photo-gallery/",
+        "image": "../images/Zenva_Logo.jpeg",
+        "repository": "https://github.com/afide26/photo-gallery"
+      },
+      {
+        "school": "Zenva Academy",
+        "degree": "Complete Guide To Bootstrap 4",
+        "graduated": "08 December 2018",
+        "certificate": "https://academy.zenva.com/certificate/2dabad22/",
+        "description": "A review of Bootstrap 4. The demo project shows an e-commerce site with  the new features of the new Bootstrap 4.",
+        "project": "https://afide26.github.io/zenva-store-front/",
+        "image": "../images/Zenva_Logo.jpeg",
+        "repository": "https://github.com/afide26/zenva-store-front"
+      },
+      {
+        "school": "TylerMcGinnis.com - React Fundamentals",
+        "degree": "React Basics, React Router",
+        "graduated": "12 February 2018",
+        "certificate": "",
+        "description": "This course is part 1 of the entire React Training Program from https://tylermcginnis.com/. The demo project's objective is to train people to code in Native JavaScript using the React Library, in a GitHub profile battle game project.",
+        "project": "https://react-battle-e4a2f.firebaseapp.com/",
+        "image": "../images/REACTDisplay.jpg",
+        "repository": "https://github.com/afide26/github-battle"
+      },
+      {
+        "school": "UDEMY - Advanced CSS and Sass: Take Your CSS to the Next Level!",
+        "degree": "Advanced SASS, Block Element Modifier, Image Optimisation, Flexbox and Grid System",
+        "graduated": "28 January 2018",
+        "description": "This course covered 28 hours of lectures and code along experience on the latest technologies involving CSS. The project involved intensive coding exercises that was designed to expose the student to real word scenarios needed in styling modern websites without neglecting older browsers for compatibility. It delved into BEM, folder architecture for SASS, Flexbox and the latest Grid system layout disciplines in CSS.",
+        "certificate": "https://www.udemy.com/certificate/UC-WWS85VTO/",
+        "project": "https://afide26.github.io/Nexter/",
+        "image": "../images/sass.png",
+        "repository": "https://github.com/afide26/Nexter"
+      },
+      {
+        "school": "UDEMY - The Complete React Web Developer Course 2nd Edition",
+        "degree": "Building Web Applications in React and Redux with Unit Testing",
+        "graduated": "22 October 2017",
+        "description": "This course covered 36+ hours of lectures and code along examples that covered the best practices in using ReactJS, Redux, Jest, Enzyme, React Router, Redux Thunk, Firebase, SASS and BEM. The sample application employed most of the advanced concepts in React and Redux whilst using asynchronous data fetching and updating of data hosted in Firebase.",
+        "project": "https://expensify-af.herokuapp.com/",
+        "image": "../images/REACTDisplay.jpg",
+        "certificate": "https://www.udemy.com/certificate/UC-2QD8KQST/",
+        "repository": "https://github.com/afide26/expensify"
+      },
+      {
+        "school": "UDEMY - Git a Web Developer Job: Mastering the Modern Workflow",
+        "degree": "Building Web Applications Using Webpack, Gulp, BEM, PostCSS",
+        "graduated": "06 September 2017",
+        "certificate": "https://www.udemy.com/certificate/UC-QWZ7CL54/",
+        "description": "This course covered the best practice in organised workflow for web development including modules, style imports and image optimisation. The course is 15.5 hours long from a very knowledgable instructor. I refer to this course from time to time to refresh my knowledge in the proper ways of organising code and workflow.",
+        "project": "https://afide26.github.io/git-ts-site/",
+        "image": "../images/git.png",
+        "repository": "https://github.com/afide26/git-ts-site"
+      },
+
+      {
+        "school": "UDEMY - Complete Node.JS Developer Course",
+        "degree": "Complete Node.JS Developer Course",
+        "graduated": "January 14, 2017",
+        "description": "This project based course entailed coding 4 Node applications with varying complexities utilising MongoDB, Authentication, Socket.io, Automated Testing and Version Control. The capstone project involved Socket.io integration to demonstrate non-blocking server and client connection, enabling realt-time communication between users.",
+        "project": "https://udemynodechatapp.herokuapp.com",
+        "image": "../images/NodeMongoExpress.jpg",
+        "repository": "https://github.com/afide26/section-9-complete-nodejs-course"
+      },
+
+      {
+        "school": "UDEMY - Getting Started with Angular2+ ",
+        "degree": "Angular Web Development",
+        "graduated": "May 10,2017",
+        "description": "This introductory course to Angular Web Development covered component based web development in a very concise manner includeing sound fundamentals in how Angular approaches single page web applications.",
+        "project": "https://ngcribs.herokuapp.com/",
+        "image": "../images/AngularApplication.jpg",
+        "repository": "https://github.com/afide26/ngCribs",
+        "certificate": "https://www.udemy.com/certificate/UC-TM0HLUUO/"
+      },
+      {
+        "school": "UDEMY - The Web Developer Bootcamp ",
+        "degree": "The Web Developer Bootcamp",
+        "graduated": "February 4, 2017",
+        "description": "The course takes aspiring web developers into a plethora of web development topics like HTML, CSS, Javascript for both front end and back end, version control, No SQL databases, authenticaion, authorisation to prepare for a potential career in Web development. The online course entails tests, code challenges and sample web application as capstone project.",
+        "project": "https://afide-yelpcamp.herokuapp.com/",
+        "image": "../images/NodeMongoExpress.jpg",
+        "repository": "https://github.com/afide26/webbootcamp",
+        "certificate": "https://www.udemy.com/certificate/UC-1RWH7DA4/"
+      },
+      {
+        "school": "UDEMY - Modern React with Redux",
+        "degree": "Building Web Applications in React and Redux",
+        "graduated": " ",
+        "description": "The sample application was inspired by YouTube and coded in React. The landing page is a tribute to Alan's childhood idol, Bruce Lee. Covered in this course are practical applications of ReactJS, React Router, React Forms, AJAX Requests and Deployment. ",
+        "project": "https://react-tube-bl.herokuapp.com/",
+        "image": "../images/REACTDisplay.jpg",
+        "repository": "https://github.com/afide26/ReactTube"
+      },
+      {
+        "school": "CareerFoundry",
+        "degree": "Full Stack Web Development Specialising in Ruby on Rails",
+        "graduated": "November 2016",
+        "description": "Six-month Web Development course designed for beginners to have the skills and knowledge to become an employable junior front-end and Ruby on Rails developer. The curriculum covers HTML, CSS, Javascript, jQuery, Bootstrap, AngularJS, Ruby, and Rails. By the end of the program, students will have built their first web app and will understand developer tools like Git and Heroku. The end project for this course is an online portfolio and an e-commerce web-application utilising Rails5 technology and Stripe as payment system.",
+        "image": "../images/Rails.jpg",
+        "repository": "https://github.com/afide26/cfcoursapp",
+        "certificate": "https://github.com/afide26/afresume/blob/master/public/images/CareerFoundry_Certificate_Alan%20Fidelino.pdf"
+      }
+    ],
+    "work": [
+      {
+        "company": "Aquent",
+        "title": "UI/UX, Front End Web Developer for WooliesX AEM team",
+        "years": "4 February 2019 - Present",
+        "description": "This current role involves day-to-day task of maintaining and updating the front-end design and development of various internal websites for Woolworths Group team members. As the front-end developer of the Adobe Experience Development (AEM) team, Alan has the privilege of working and developing websites in an Agile environment, using JIRA, Jenkins, Git and other related technologies. The core project being worked on at the moment is for an external website for one of the businesses belonging to the Woolworths Group of companies. Upon completion, the sites will cater to clients from Australia and New Zealand.",
+        "accomplishments": [
+          "Designing the responsive mock-up templates (UX) for the Primary Connect Website",
+          "Front-end Development of the new Primary Connect website",
+          "Progressive enhancement of front-end features for Dan's Central",
+          "User Interface upgrade and design of the Woolworths Group Team Benefits site."
+        ]
+      },
+      {
+        "company": "Woolworths Group",
+        "title": "Communications Specialist - Front End Web Developer",
+        "years": "October 2012 - 31 January 2019",
+        "description": "As a fulltime Communications Specialist with skills in digital media, graphic design, Alan volunteered to develop the Information Technology intranet site whilst enrolled in an online web development course. With the help of colleagues and mentors, Alan designed, developed and maintained the group IT website using his knowledge of the Ruby on Rails framework. With the need to move the existing site to a more secure platform in Adobe Experience Manager (AEM), the opportunity to work with the in-house AEM development team as a front-end web developer for a period of 3 months.",
+        "accomplishments": [
+          "Development and Deployment of the Woolworths Group IT Intranet Website",
+          "Support for the front-end development of Supply Chain website",
+          "Front-end development of Online Thank You Cards for the Woolworths Group",
+          "Front-end development and support for the Woolworths Group Cloud solution website",
+          "Development of Tap-My-Back inspired recognition site - ShoutOut"
+        ]
+      },
+      {
+        "company": "Sensis White Pages",
+        "title": "Media Specialist/Online Specialist",
+        "years": "April 2007 - October 2012",
+        "description": "Subject matter expert for White Pages' digital products. Provided detailed analysis of businesses serviced by the top account executives in White Pages to match the digital and print solutions offered by the company to the client's business needs. Other roles included digital project management, online coaching and sharing of new trends in web technologies that helped the Premium Sales team with their digital knowledge.",
+        "accomplishments": [
+          "Conceptualized and managed the project completion of activity-based sales integration for the Sensis White Pages sales national team site.",
+          "Value proposition subject matter expert for White Pages Digital - NSW"
+        ]
+      }
+    ],
+    "passion": {
+      "description": "I am a voracious learner and have kept myself up to date with the most relevant skills in these demanding times. I have to say learnability is my most important and desirable skill. Anyone who has worked with me knows that I always strive to be better at what I do and this same attitude is what I demonstrate daily in my studies about web development. Most recently I have focused on learning Functional and Objective Programming in Javascript to be able to utilise these skills in my future career goals. My development is always geared towards striking a balance in gaining analytical and artistic knowledge that I use as tools of the trade."
+    },
+    "skills": [
+      {
+        "name": "AEM - Authoring & Content Management",
+        "shortname": "aem",
+        "level": "95%"
+      },
+      {
+        "name": "Photoshop",
+        "shortname": "Photoshop",
+        "level": "90%"
+      },
+
+      {
+        "name": "Illustrator",
+        "shortname": "Illustrator",
+        "level": "75%"
+      },
+      {
+        "name": "CSS, Grid System and Flexbox Layouts",
+        "shortname": "CSS",
+        "level": "80%"
+      },
+      {
+        "name": "SASS",
+        "shortname": "Sass",
+        "level": "80%"
+      },
+      {
+        "name": "Post CSS",
+        "shortname": "PostCSS",
+        "level": "80%"
+      },
+      {
+        "name": "HTML5",
+        "shortname": "HTML5",
+        "level": "90%"
+      },
+      {
+        "name": "Javascript/ES6+",
+        "shortname": "Javascript",
+        "level": "80%"
+      },
+      {
+        "name": "NodeJS",
+        "shortname": "NodeJS",
+        "level": "85%"
+      },
+      {
+        "name": "AngularJS",
+        "shortname": "AngularJS",
+        "level": "80%"
+      },
+      {
+        "name": "Angular2+",
+        "shortname": "AngularTwoPlus",
+        "level": "80%"
+      },
+      {
+        "name": "ReactJS and Redux",
+        "shortname": "React",
+        "level": "80%"
+      },
+      {
+        "name": "jQuery",
+        "shortname": "jQuery",
+        "level": "80%"
+      },
+      {
+        "name": "Ruby and Ruby on Rails",
+        "shortname": "Ruby",
+        "level": "80%"
+      },
+      {
+        "name": "NPM, Yarn",
+        "shortname": "npm",
+        "level": "75%"
+      },
+      {
+        "name": "Gulp, Webpack",
+        "shortname": "webtooling",
+        "level": "75%"
+      }
+    ]
+  },
+  "testimonials": {
+    "recommendations": [
+      {
+        "text": "I had the privilege of working with Alan in one of the challenging projects at Woolworths. Alan is proactive, result-oriented, responsible and technically sound person and he is always ready to put all his energy and time to get the job done. He has exceptional troubleshooting and analytical skills in Ruby, React and Javascript. He is a great asset to the company.",
+        "user": "Saswat Mishra - AEM Lead at Woolworths",
+        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
+      },
+      {
+        "text": "I had the pleasure of working with Alan in Woolworths. Alan is an exceptionally hard working professional. His ability to work under pressure and deliver a top class outcome is what makes him stand out from the crowd. He is an excellent communicator and has the ability to translate complex information in simple and exciting formats. Alan is a keen learner and is passionate about digital technology. He keeps reinventing himself by learning new skills and finding ways to use that in his role. I believe Alan's passion in the web/mobile development space holds him in good stead in this fast moving world. He will be a great asset to any organisation especially in the digital space.",
+        "user": "Ani Nair - Senior Manager, Customer Experience Design ICare, Alan's previous boss, mentor and influencer",
+        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
+      },
+      {
+        "text": "I had the pleasure of working with Alan while he was my colleague at Woolworths. During this time he was diligently learning two programming languages, Javascript and Ruby. Not only did he learn two development stacks but he would also find practical ways to implement what he had learnt to benefit the business. The crowning project was one in which he built the portal for Woolworths I.T. division. I respect Alan as he would go over and above his role consistently, finding new problems he could solve and helping others, finding best practice resolutions to whatever problem he was faced with. I would highly recommend Alan as a problem solver, team player and technologist.",
+        "user": "Trent Shields - Founder and Lead Strategist at Dev Haus X, Alan's Web Development Mentor",
+        "link": "https://www.linkedin.com/in/alan-fidelino-25148213/"
+      }
+    ]
+  }
+}

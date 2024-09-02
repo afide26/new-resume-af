@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en" ng-app="myResume">
+<!--<![endif]-->
+
+<head>
+
+  <!--- Basic Page Needs
+   ================================================== -->
+  <meta charset="utf-8">
+  <title>AF's Resume</title>
+  <meta name="description" content="Portfolio Resume">
+  <meta name="author" content="Alan Fidelino">
+  <meta name="description" content="Resume Built With AngularJS">
+  <meta name="keywords" content="NODEJS,  Ruby on Rails, ReactJS, AngularJS, Angular">
+  <!-- Mobile Specific Metas
+   ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/images.css">
+  <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+  <!-- Script
+   ================================================== -->
+  <script src="js/supps/modernizr.js"></script>
+
+  <!-- Angular Scripts
+   ================================================== -->
+  <script src="./lib/angular/angular.min.js"></script>
+  <script src="./lib/angular/angular-route.min.js"></script>
+  <script src="./lib/angular/angular-animate.min.js"></script>
+
+  <!-- Angular Driver Scripts
+   ================================================== -->
+  <script src="./js/resume.js"></script>
+  <!-- Favicons
+	================================================== -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+</head>
+
+<body ng-controller="ResumeController">
+
+  <!-- Header
+   ================================================== -->
+  <header id="home">
+
+    <nav id="nav-wrap">
+
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+      <ul id="nav" class="nav">
+        <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+        <li><a class="smoothscroll" href="#about">About</a></li>
+        <li><a class="smoothscroll" href="#resume">Resume</a></li>
+        <li><a class="smoothscroll" href="#testimonials"><i class="fa fa-linkedin"></i> Recommendations</a></li>
+        <li><a class="smoothscroll" href="#contact">Contact</a></li>
+      </ul> <!-- end #nav -->
+
+    </nav> <!-- end #nav-wrap -->
+
+    <div class="row banner">
+      <div class="banner-text">
+        <h3>Welcome to the personal website of</h3>
+        <h1 class="responsive-headline" ng-cloak>{{main.name}}</h1>
+        <h3 ng-cloak>A {{main.address.city.substring(15)}} based <span ng-cloak>{{main.occupation}}</span>
+          <br><span>{{source.main.description}}</span> <a class="smoothscroll" href="#about">Start scrolling</a>
+          and learn more <a class="smoothscroll" href="#about">about Alan's skills and experience.</a>.</h3>
+        <hr />
+        <ul class="social">
+          <li><a target="_blank" ng-href="{{social[0].url}}"><i class="fa fa-{{social[0].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[1].url}}"><i class="fa fa-{{social[1].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[2].url}}"><i class="fa fa-{{social[2].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[3].url}}"><i class="fa fa-{{social[3].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[4].url}}"><i class="fa fa-{{social[4].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[5].url}}"><i class="fa fa-{{social[5].name}}"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="scrolldown">
+      <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+    </p>
+
+  </header> <!-- Header End -->
+
+
+  <!-- About Section
+   ================================================== -->
+  <section id="about">
+
+    <div class="row">
+
+      <div class="three columns">
+
+        <img class="profile-pic" src="images/profilepic.jpeg" alt="" />
+
+      </div>
+
+      <div class="nine columns main-col">
+
+        <h2>About Alan</h2>
+
+        <p>
+          {{ main.bio }}
+        </p>
+        <p>
+          {{ main.bio2 }}
+        </p>
+        <p>
+          {{ main.bio3 }}
+        </p>
+        <p>
+          {{ main.bio4 }}
+        </p>
+        <p>
+          {{ main.bio5 }}
+        </p>
+        <div class="row">
+
+          <div class="columns contact-details">
+
+            <h2>Contact Details</h2>
+            <p class="address">
+              <span>{{ main.name }}</span><br>
+              <span>{{ address.street }}<br>
+                {{ address.city }}<br>
+                {{ address.state}} {{ address.zip }}
+              </span><br>
+              <span><a href="{{ main.phone }}">Mobile Contact</a></span><br>
+              <span><a href="{{ main.email }}">Email Alan</a></span>
+            </p>
+
+          </div>
+
+
+        </div> <!-- end row -->
+
+      </div> <!-- end .main-col -->
+
+    </div>
+
+  </section> <!-- About Section End-->
+
+
+  <!-- Resume Section
+   ================================================== -->
+  <!-- Work
+       ==================================================-->
+  <section id="resume">
+
+    <div class="row work">
+
+      <div class="three columns header-col">
+        <h1><span>Work</span></h1>
+      </div>
+
+      <div class="nine columns main-col">
+
+        <div class="row item" ng-repeat="item in work">
+
+          <div class="twelve columns">
+
+            <h3>{{ item.company }}</h3>
+            <p class="info">{{ item.title }}<span>&bull;</span> <em class="date">{{ item.years}}</em></p>
+
+            <p>
+              {{ item.description }}
+            </p>
+            <ul>
+              <h4>Key Achievements:</h4>
+              <li class="achievements" ng-repeat="item in item.accomplishments"><i class="fa fa-chevron-right"></i>
+                {{item}}</li>
+            </ul>
+          </div>
+        </div> <!-- item end -->
+      </div> <!-- main-col end -->
+
+    </div> <!-- End Work -->
+
+    <!-- Education
+       ================================================== -->
+    <div class="row education">
+
+      <div class="three columns header-col">
+        <h1><span>Education</span></h1>
+      </div>
+      <div class="nine columns main-col">
+        <div class="row item" ng-repeat="item in education">
+          <div class="twelve columns">
+            <h3>{{ item.school }}</h3>
+            <p class="info">{{item.degree}} <span>&bull;</span> <em class="date">{{ item.graduated }}</em></p>
+            <p>
+              <span class="project-images">
+                <a ng-href="{{item.project}}" target="_blank">
+                  <img src="{{item.image}}" />
+                </a>
+              </span>
+              {{ item.description }}
+            </p>
+            <p>
+              <a class="project-links" ng-if="item.certificate" ng-href="{{item.certificate}}" target="_blank">
+                <i class="fa fa-certificate"></i> Course Certificate
+              </a>&nbsp;
+              <a class="project-links" ng-if="item.project" ng-href="{{item.project}}" target="_blank">
+                <i class="fa fa-globe"></i> Project Link
+              </a>&nbsp;
+              <a class="project-links" ng-if="item.repository" ng-href="{{item.repository}}" target="_blank">
+                <i class="fa fa-github"></i> Application Repository
+              </a>
+            </p>
+          </div>
+          <hr />
+        </div> <!-- item end -->
+      </div> <!-- main-col end -->
+
+    </div> <!-- End Education -->
+
+    <!-- Skills
+      ============================================== -->
+    <div class="row skill">
+
+      <div class="three columns header-col">
+        <h1><span>Skills</span></h1>
+      </div>
+
+      <div class="nine columns main-col">
+
+        <p>
+          {{ skills[0].description }}
+        </p>
+
+        <div class="bars" ng-repeat="item in skills">
+
+          <ul class="skills">
+            <li><span class="bar-expand {{item.shortname.toLowerCase()}}"></span><em>{{item.name}}</em></li>
+          </ul>
+
+        </div><!-- end skill-bars -->
+
+      </div> <!-- main-col end -->
+
+    </div> <!-- End skills -->
+
+  </section> <!-- Resume Section End-->
+
+
+  <!-- Testimonials Section
+   ================================================== -->
+  <section id="testimonials">
+
+    <div class="text-container">
+
+      <div class="row">
+
+        <div class="two columns header-col">
+
+          <h1><span>Linked In Recommendations</span></h1>
+
+        </div>
+
+        <div class="ten columns flex-container">
+
+          <div class="flexslider">
+
+            <ul class="slides">
+              <li>
+                <blockquote>
+                  <p>
+                    {{linkedin[0].text}}
+                  </p>
+                  <cite>{{linkedin[0].user}}</cite>
+                </blockquote>
+              </li> <!-- slide ends -->
+              <li>
+                <blockquote>
+                  <p>
+                    {{linkedin[1].text}}
+                  </p>
+                  <cite>{{linkedin[1].user}}</cite>
+                </blockquote>
+              </li> <!-- slide ends -->
+              <li>
+                <blockquote>
+                  <p>
+                    {{linkedin[2].text}}
+                  </p>
+                  <cite>{{linkedin[2].user}}</cite>
+                </blockquote>
+              </li> <!-- slide ends -->
+            </ul>
+
+          </div> <!-- div.flexslider ends -->
+
+        </div> <!-- div.flex-container ends -->
+
+      </div> <!-- row ends -->
+
+    </div> <!-- text-container ends -->
+
+  </section> <!-- Testimonials Section End-->
+
+
+  <!-- Contact Section
+   ================================================== -->
+  <section id="contact">
+
+    <div class="row section-head">
+
+      <div class="two columns header-col">
+
+        <h1><span>Get In Touch.</span></h1>
+
+      </div>
+
+      <div class="ten columns">
+        <p class="lead">Please drop me a line or two if you're interested in hiring or utilising my services by filling
+          in the form below.
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="eight columns">
+        <form action="https://formspree.io/alanfidelino@yahoo.com.au" method="POST">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Type your full name here">
+          </div>
+          <div class="form-group">
+            <label for="email">*Email Address:</label>
+            <input id="email" name="_replyto" type="email" required="required" class="form-control"
+              placeholder="Enter a valid email address here">
+          </div>
+          <div class="form-group">
+            <label for="telNo">Your Mobile Number:</label>
+            <input id="telNo" name="telephone" type="tel" class="form-control"
+              placeholder="Leave your mobile number here">
+          </div>
+          <div class="form-group">
+            <label for="messageBox">*Your Message:</label>
+            <textarea id="messageBox" name="messageBox" style="resize:none" minlength="10" maxlength="200"
+              required="required" cols="40" rows="5" class="form-control" placeholder="Your message here..."></textarea>
+            <p id="visible-comment"></p>
+            <p id="char-count"></p>
+          </div>
+          <div class="form-group">
+            <button id="button" type="submit" value="Send" class="btn btn-success">Submit</button>
+          </div>
+        </form>
+
+      </div>
+
+
+      <aside class="four columns footer-widgets">
+        <div class="widget widget_contact">
+          <h4>Address and Phone</h4>
+          <p class="address">
+            {{main.name}}<br>
+            {{address.street}} <br>
+            {{address.city}}, {{address.zip}} {{address.country}}<br>
+            <span><a href="{{ main.phone }}">Mobile Contact</a></span><br>
+            <span><a href="{{ main.email }}">Email Alan</a></span>
+          </p>
+        </div>
+      </aside>
+
+    </div>
+
+  </section> <!-- Contact Section End-->
+
+
+  <!-- footer
+   ================================================== -->
+  <footer>
+
+    <div class="row">
+
+      <div class="twelve columns" ng-controller="ResumeController">
+
+        <ul class="social-links">
+          <li><a target="_blank" ng-href="{{social[0].url}}"><i class="fa fa-{{social[0].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[1].url}}"><i class="fa fa-{{social[1].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[2].url}}"><i class="fa fa-{{social[2].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[3].url}}"><i class="fa fa-{{social[3].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[4].url}}"><i class="fa fa-{{social[4].name}}"></i></a></li>
+          <li><a target="_blank" ng-href="{{social[5].url}}"><i class="fa fa-{{social[5].name}}"></i></a></li>
+        </ul>
+
+        <ul class="copyright">
+          <li>&copy; Copyright {{date}} - With Acknowledgments to <a href="styleshout.com">CeeVee from Styleshout for
+              Site Template</a></li>
+          <li>AngularJS Code by <a title="Alan Fidelino" href="https://github.com/afide26/">Alan Fidelino</a></li>
+        </ul>
+
+      </div>
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+    </div>
+
+  </footer> <!-- Footer End-->
+
+  <!-- Java Script
+   ================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/supps/jquery-1.10.2.min.js"><\/script>')
+  </script>
+  <script type="text/javascript" src="js/supps/jquery-migrate-1.2.1.min.js"></script>
+
+  <script src="js/supps/jquery.flexslider.js"></script>
+  <script src="js/supps/waypoints.js"></script>
+  <script src="js/supps/jquery.fittext.js"></script>
+  <script src="js/supps/magnific-popup.js"></script>
+  <script src="js/supps/init.js"></script>
+
+</body>
+
+</html>
