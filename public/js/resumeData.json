@@ -189,9 +189,35 @@
     ],
     "work": [
       {
+        "company": "Okta/Auth0",
+        "title": "Senior Technical Account Manager",
+        "years": "January 2022 - Present",
+        "description": "Responsible for providing technical advice to Workforce and Identity solutions. This role was originally a hybrid of CSM and TAM role.",
+        "accomplishments": [
+          "Leads the Technical Enablement project for the APJ region to ensure continuous upskilling of individual team members",
+          "An active member of global data analytics tracking and projects for technical account management engagement",
+          "Mentor and train interns who recently joined Okta on product adoption management",
+          "Highest retention and product adoption rate for APJ for 2 consecutive years",
+          "Lone representative in the Oceania region for the Customer Success 2Sigma Program representing top 5 percent of performers for 2023-2024."
+        ]
+      },
+      {
+        "company": "Monsido Australia",
+        "title": "Senior Customer Success Manager",
+        "years": "October 2019 - January 2022",
+        "description": "Responsible for guiding, onboarding, and training users from top tier-customers who subscribe to the Monsido platform in Australia, New Zealand, and the Asia Pacific",
+        "accomplishments": [
+          "Generated the highest number of actioned feature requests generated from customer feedback to improve several of Monsido’s reporting features and User Interface improvements",
+          "Training and onboarding new Customer Success Managers",
+          "Responsible for leading and promoting the Monsido platform in G2 crowd for positive client reviews and feedback. Increased customer review count by over 200% in less than 1 year of active campaign",
+          "Led the CSM in the APAC region and interim head of Customer Success for APAC and Europe.",
+          "Mentored and trained multiple CSMs, some of whom are now leaders in the CS field."
+        ]
+      },
+      {
         "company": "Aquent",
         "title": "UI/UX, Front End Web Developer for WooliesX AEM team",
-        "years": "4 February 2019 - Present",
+        "years": "4 February 2019 - July 2019",
         "description": "This current role involves day-to-day task of maintaining and updating the front-end design and development of various internal websites for Woolworths Group team members. As the front-end developer of the Adobe Experience Development (AEM) team, Alan has the privilege of working and developing websites in an Agile environment, using JIRA, Jenkins, Git and other related technologies. The core project being worked on at the moment is for an external website for one of the businesses belonging to the Woolworths Group of companies. Upon completion, the sites will cater to clients from Australia and New Zealand.",
         "accomplishments": [
           "Designing the responsive mock-up templates (UX) for the Primary Connect Website",
